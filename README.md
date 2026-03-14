@@ -10,7 +10,7 @@ Auto-answer script for the Roblox word guessing game. Reads the prompt, finds a 
 Paste this into your executor:
 
 ```lua
-loadstring(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/blinkednextnona/AutoAnswerWordGuess/main/AutoAnswer_AllInOne.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/blinkednextnona/AutoAnswerWordGuess/main/AutoAnswer_AllInOne.lua"))()
 ```
 
 That's it. The UI will appear and you're ready to go.
